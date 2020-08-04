@@ -18,6 +18,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+AUTHOR_URL = ''
+AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -36,3 +39,22 @@ DEFAULT_PAGINATION = False
 
 # Theme Settings
 THEME = 'themes/brutalist'
+
+# PLUGINS
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap', 'w3c_validate']
+
+## SITEMAP PLUGIN
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': .99,
+        'pages': .75,
+        'indexes': .5
+    },
+    'changefreqs': {
+        'articles': 'daily',
+        'pages': 'daily',
+        'indexes': 'daily'
+    },
+}

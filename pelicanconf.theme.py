@@ -81,27 +81,3 @@ UNTAPPD = 'https://untappd.com/user/mcman_s'
 ## Disqus Sitename for comments on posts
 ## Commenting mine out for this theme site
 DISQUS_SITENAME = 'brutalistpelican'
-## Gravatar
-## Commenting mine out so you can see how the theme looks without one
-## See https://mamcmanus.com to see what it looks like with a Gravatar
-# GRAVATAR = 'https://www.gravatar.com/avatar/a5544bcae63c5d56c0b7a3fa0ab5b295?s=256'
-
-
-# PLUGINS
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['sitemap', 'w3c_validate', 'gzip_cache']
-
-## SITEMAP PLUGIN
-SITEMAP = {
-    'format': 'xml',
-    'priorities': {
-        'articles': .99,
-        'pages': .75,
-        'indexes': .5
-    },
-    'changefreqs': {
-        'articles': 'daily',
-        'pages': 'daily',
-        'indexes': 'daily'
-    },
-}

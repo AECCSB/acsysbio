@@ -2,7 +2,6 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
-        {% include 'analytics.html' %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
@@ -70,13 +69,10 @@
         {% endblock head %}
 </head>
 <body>
-    {% include 'github.html' %}
     {% block header %}
     <div role="banner" id="masthead">
         <header>
-            {% if GRAVATAR %}
-            <a href="/"><img src="{{ GRAVATAR }}" alt="Matt McManus Avatar" class="gravatar"></a>
-            {% elif LOGO %}
+            {% if LOGO %}
             <a href="/"><img src="{{ SITEURL }}/images/{{ LOGO }}" alt="McManus Logo"></a>
             {% else %}
             <h1><a href="/">{{ FIRST_NAME }}'s Blog</a></h1>
@@ -115,24 +111,6 @@
                         {% endif %}
                         {% if GITHUB %}
                         <a href="{{ GITHUB }}" target="_blank"><div class="icon-github icon"></div></a>
-                        {% endif %}
-                        {% if STRAVA %}
-                        <a href="{{ INSTAGRAM }}" target="_blank"><div class="icon-instagram icon"></div></a>
-                        {% endif %}
-                        {% if STRAVA %}
-                        <a href="{{ STRAVA }}" target="_blank"><div class="icon-strava icon"></div></a>
-                        {% endif %}
-                        {% if STRAVA %}
-                        <a href="{{ TELEGRAM }}" target="_blank"><div class="icon-telegram icon"></div></a>
-                        {% endif %}
-                        {% if GOODREADS %}
-                        <a href="{{ GOODREADS }}" target="_blank"><div class="icon-goodreads icon"></div></a>
-                        {% endif %}
-                        {% if FOURSQUARE %}
-                        <a href="{{ FOURSQUARE }}" target="_blank"><div class="icon-foursquare icon"></div></a>
-                        {% endif %}
-                        {% if UNTAPPD %}
-                        <a href="{{ UNTAPPD }}" target="_blank"><div class="icon-untappd icon"></div></a>
                         {% endif %}
                     </div>
                     <p>© <script>document.write(moment().format('YYYY'));</script> {{ AUTHOR }}</p>
