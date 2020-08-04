@@ -70,14 +70,5 @@ MENUITEMS = [('tags', '/tags')]
 ## Social icons for footer
 ## Set these to whatever your unique public URL is for that platform
 ## I've left mine here as a example
-STRAVA = 'https://www.strava.com/athletes/27234301'
 TWITTER = 'https://twitter.com/mcman_s'
-INSTAGRAM = 'https://instagram.com/mcman_s'
 GITHUB = 'https://github.com/mamcmanus'
-TELEGRAM = 'https://t.me/mcman_s'
-GOODREADS = 'https://www.goodreads.com/user/show/48849158-matthew-mcmanus'
-FOURSQUARE = 'https://foursquare.com/mcman_s'
-UNTAPPD = 'https://untappd.com/user/mcman_s'
-## Disqus Sitename for comments on posts
-## Commenting mine out for this theme site
-DISQUS_SITENAME = 'brutalistpelican'
