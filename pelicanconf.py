@@ -42,6 +42,7 @@ THEME = 'themes/brutalist'
 
 TWITTER = 'https://twitter.com/CancerSysBio'
 GITHUB = 'https://github.com/AECCSB'
+LOGO = 'network_diag.png'
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
