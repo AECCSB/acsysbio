@@ -4,9 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Association of Cancer Systems Biologists'
 SITENAME = 'Association of Cancer Systems Biologists'
-SITEURL = 'https://acsysbio.org'
+SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 TIMEZONE = 'America/Los_Angeles'
 
