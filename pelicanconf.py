@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'The Organization'
+AUTHOR = 'Association of Cancer Systems Biologists'
 SITENAME = 'Association of Cancer Systems Biologists'
 SITEURL = ''
 
@@ -39,6 +39,9 @@ DEFAULT_PAGINATION = False
 
 # Theme Settings
 THEME = 'themes/brutalist'
+
+TWITTER = 'https://twitter.com/CancerSysBio'
+GITHUB = 'https://github.com/AECCSB'
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
