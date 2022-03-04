@@ -64,3 +64,13 @@ SITEMAP = {
         'indexes': 'daily'
     },
 }
+
+STATIC_PATHS = [
+    'extra',
+    ]
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    }
+
+
